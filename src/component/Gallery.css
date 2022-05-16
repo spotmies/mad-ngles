@@ -1,0 +1,91 @@
+.mainAbout {
+  height: 771px;
+  width: 100%;
+
+  background-color: #fffcfd;
+}
+.image {
+  height: 771px;
+  width: 100%;
+  font-size: 30px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(https://th.bing.com/th/id/OIP.3y-pRJ0QGJ7y2gBnbMBQUgHaE8?w=278&h=185&c=7&r=0&o=5&dpr=1.25&pid=1.7);
+}
+
+@media (max-width: 1080px) {
+  .mainAbout {
+    background-color: #dbaab1;
+  }
+  .image {
+    height: 804px;
+    width: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://th.bing.com/th/id/OIP.3y-pRJ0QGJ7y2gBnbMBQUgHaE8?w=278&h=185&c=7&r=0&o=5&dpr=1.25&pid=1.7);
+  }
+}
+@media (max-width: 900px) {
+  .mainAbout {
+    background-color: #dbaab1;
+  }
+  .image {
+    height: 803px;
+    width: auto;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://th.bing.com/th/id/OIP.3y-pRJ0QGJ7y2gBnbMBQUgHaE8?w=278&h=185&c=7&r=0&o=5&dpr=1.25&pid=1.7);
+  }
+}
+@media (max-width: 800px) {
+  .mainAbout {
+    background-color: #dbaab1;
+  }
+  .image {
+    height: 819px;
+    width: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://th.bing.com/th/id/OIP.3y-pRJ0QGJ7y2gBnbMBQUgHaE8?w=278&h=185&c=7&r=0&o=5&dpr=1.25&pid=1.7);
+  }
+}
+@media (max-width: 600px) {
+  .mainAbout {
+    background-color: #dbaab1;
+  }
+  .image {
+    height: 809px;
+    width: auto;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://th.bing.com/th/id/OIP.3y-pRJ0QGJ7y2gBnbMBQUgHaE8?w=278&h=185&c=7&r=0&o=5&dpr=1.25&pid=1.7);
+  }
+}
+@media (max-width: 500px) {
+  .mainAbout {
+    background-color: #dbaab1;
+  }
+  .image {
+    height: 819px;
+    width: auto;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://th.bing.com/th/id/OIP.3y-pRJ0QGJ7y2gBnbMBQUgHaE8?w=278&h=185&c=7&r=0&o=5&dpr=1.25&pid=1.7);
+  }
+}
+@media (max-width: 560px) {
+  .mainAbout {
+    background-color: #dbaab1;
+  }
+  .image {
+    height: 819px;
+    width: auto;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://th.bing.com/th/id/OIP.3y-pRJ0QGJ7y2gBnbMBQUgHaE8?w=278&h=185&c=7&r=0&o=5&dpr=1.25&pid=1.7);
+  }
+}

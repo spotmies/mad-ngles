@@ -1,0 +1,194 @@
+.body,
+html {
+  height: 100%;
+  background-color: black;
+}
+.main_div {
+  height: 771px;
+  width: 100%;
+  background-position: center;
+  position: relative;
+
+  flex-direction: row;
+
+  /* background-size: cover;
+  background-image: url(https://cdn.logojoy.com/wp-content/uploads/2018/05/30163522/763.png);
+  background-repeat: no-repeat;
+  background-size: 100%; */
+  background-image: url(./Cloud.jpeg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  background-color: black;
+  display: flex;
+}
+.text_content {
+  position: absolute;
+  top: 120px;
+  left: 70px;
+  background: transparent;
+  width: 30%;
+
+  color: rgb(205, 205, 206);
+}
+.text_content span {
+  color: rgb(41, 122, 204);
+}
+.text_content h1 {
+  font-size: 40px;
+}
+.text_content p {
+  padding-top: 20px;
+}
+.image_box {
+  background-image: url(./Cartoon-Clouds-Wallpaper-For-IPhone.png);
+  background-size: 100%;
+  position: absolute;
+  display: flex;
+  right: 140px;
+  top: 80px;
+  height: 400px;
+  width: 400px;
+}
+.Scroll_down {
+  height: 50px;
+  width: 200px;
+  position: absolute;
+  color: rgb(130, 132, 134);
+  display: flex;
+  left: 50%;
+  top: 90%;
+}
+.scroll_down_image {
+  background-image: url(./down-arrow.png);
+
+  height: 30px;
+  width: 30px;
+  background-color: aliceblue;
+  background-size: 100%;
+  position: absolute;
+  top: 94%;
+  left: 53.3%;
+}
+.second_page {
+  height: 200px;
+  width: 500px;
+  color: rgb(112, 114, 116);
+  position: absolute;
+  right: 60px;
+  top: 1000px;
+  font-size: 20px;
+  word-spacing: 5px;
+  line-height: 34px;
+}
+.second_page h1 {
+  font-size: 28px;
+  word-spacing: 5px;
+  color: rgb(41, 122, 204);
+}
+.Second_image {
+  background-image: url(./Cartoon-Clouds-Wallpaper-For-IPhone.png);
+  height: 300px;
+  width: 300px;
+  background-size: 100%;
+  position: absolute;
+  left: -240%;
+  top: -50px;
+}
+.click_here {
+  color: aliceblue;
+  position: absolute;
+  top: 400px;
+  left: -380px;
+}
+.click_here h1 {
+  font-size: 17px;
+  color: rgb(210, 206, 206);
+}
+.click_here p {
+  font-size: 12px;
+  color: rgb(149, 149, 152);
+}
+.click_here span {
+  color: rgb(41, 122, 204);
+}
+@media (max-width: 500px) {
+  .main_div {
+    height: 771px;
+    width: 100%;
+    /* background-position: center;
+
+    background-size: cover;
+    background-image: url(https://cdn.logojoy.com/wp-content/uploads/2018/05/30163522/763.png);
+    background-repeat: no-repeat; */
+    background-image: url(./Cloud.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+  }
+}
+@media (max-width: 600px) {
+  .main_div {
+    height: 771px;
+    width: 100%;
+    /* background-position: center;
+
+    background-size: cover;
+    background-image: url(https://cdn.logojoy.com/wp-content/uploads/2018/05/30163522/763.png);
+    background-repeat: no-repeat; */
+    background-image: url(./Cloud.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+}
+@media (max-width: 1080px) {
+  .main_div {
+    height: 803px;
+    width: 100%;
+    /* background-position: center;
+
+    background-size: cover;
+    background-image: url(https://cdn.logojoy.com/wp-content/uploads/2018/05/30163522/763.png);
+    background-repeat: no-repeat; */
+    background-image: url(./Cloud.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+  }
+}
+@media (max-width: 900px) {
+  .main_div {
+    height: 803px;
+    width: 100%;
+    /* background-position: center;
+
+    background-size: cover;
+    background-image: url(https://cdn.logojoy.com/wp-content/uploads/2018/05/30163522/763.png);
+    background-repeat: no-repeat; */
+    background-image: url(./Cloud.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+  }
+}
+@media (max-width: 800px) {
+  .main_div {
+    height: 819px;
+    width: 100%;
+    /* background-position: center;
+
+    background-size: cover;
+    background-image: url(https://cdn.logojoy.com/wp-content/uploads/2018/05/30163522/763.png);
+    background-repeat: no-repeat; */
+    background-image: url(./Cloud.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+  }
+}
