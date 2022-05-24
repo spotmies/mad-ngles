@@ -1,19 +1,23 @@
 import "./Nav.css";
 import "./Gallery.css";
+//import { Link } from "react-router-dom";
 import { Link } from "react-router-dom";
-// import { Link } from "react-scroll";
-import { useState } from "react";
-import Home from "./Home";
-import Gallery from "./Gallery";
-import Road_Map from "./Road_Map";
-import Mad_Story from "./Mad_Story";
-import Scroll from "react-scroll";
 
-import {
-  FaFacebookSquare,
-  FaInstagramSquare,
-  FaYoutubeSquare,
-} from "react-icons/fa";
+import { useState } from "react";
+
+// import {
+//   Link,
+//   DirectLink,
+//   Element,
+//   Events,
+//   animateScroll as scroll,
+//   scrollSpy,
+//   scroller,
+// } from "react-scroll";
+
+import { BsTwitter } from "react-icons/bs";
+
+import { FaDiscord, FaYoutubeSquare } from "react-icons/fa";
 import { GiHamburgerMenu } from "react-icons/gi";
 
 function Nav() {
@@ -29,12 +33,13 @@ function Nav() {
       >
         <ul>
           <li>
-            <Link className="home" to="/">
+            <Link className="home" activeClass="active" to="/">
               Home
             </Link>
           </li>
           <li>
             <Link
+              activeClass="active"
               spy={true}
               smooth={true}
               offset={50}
@@ -47,6 +52,7 @@ function Nav() {
           </li>
           <li>
             <Link
+              activeClass="active"
               spy={true}
               smooth={true}
               offset={50}
@@ -59,10 +65,11 @@ function Nav() {
           </li>
           <li>
             <Link
+              activeClass="active"
               spy={true}
               smooth={true}
-              offset={50}
-              duration={500}
+              offset={70}
+              duration={1000}
               className="Mad_Story"
               to="Mad_Story"
             >
@@ -78,14 +85,14 @@ function Nav() {
               href="https://www.instagram.com/explore/locations/1025876748/india/bhopal-madhya-pradesh/
           oriental-institute-of-science-and-technologybhopal/"
             />
-            <FaInstagramSquare className="facebook" />
+            <FaDiscord className="discord" />
           </li>
           <li>
             <a
               href="https://www.instagram.com/explore/locations/1025876748/india/bhopal-madhya-pradesh/
           oriental-institute-of-science-and-technologybhopal/"
             />
-            <FaFacebookSquare className="instagram" />
+            <BsTwitter className="twitter" />
           </li>
           <li>
             <a
