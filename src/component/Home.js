@@ -1,11 +1,44 @@
 import React from "react";
 import { useRef } from "react";
+import {useState} from "react";
 import { Link } from "react-scroll";
 import Gallery from "./Gallery";
 import "./home.css";
 import { BsPlusLg } from "react-icons/bs";
 import { FaMinus } from "react-icons/fa";
+import { ethers } from "ethers";
 function Home() {
+
+
+  const [wallets, setWallets] = useState();
+
+ async function requestAccount() {
+   console.log("Button working");
+
+   if(window.ethereum) {
+     console.log("Metamask Detected");
+
+     try {
+       const accounts = await window.ethereum.request({
+         method: "eth_requestAccounts",
+       });
+       setWallets(accounts[0]);
+     } catch (error) {
+        console.log("Error connecting....");
+     }
+   } else {
+     console.log("Metamask not detected");
+   }
+ }
+
+ async function connectWallet() {
+  if(typeof window.ethereum !== 'undefined') {
+    await requestAccount();
+
+    const provider = new ethers.providers.Web3Provider(window.ethereum);
+  }
+ }
+
   return (
     <div>
       <div className="main_div" id="Main_div">
@@ -20,10 +53,10 @@ function Home() {
           </p>
         </div>
         <div className="image_box"></div>
-        <div className="collect_wallet_button">
+        <button className="collect_wallet_button" onClick={requestAccount}>
           {" "}
           <a href="#second_page_id">collect wallet</a>
-        </div>
+        </button>
         {/* <div className="Scroll_down">
           <p>scroll down to get mad</p>
           <div className="href">

@@ -4,8 +4,6 @@ const images = [
   {
     id: 1,
     image:"https://th.bing.com/th/id/OIP.5MIjxIPUUozy1EriLRrP1wHaIq?w=170&h=199&c=7&r=0&o=5&dpr=1.25&pid=1.7",
-    "https://th.bing.com/th/id/OIP.5MIjxIPUUozy1EriLRrP1wHaIq?w=170&h=199&c=7&r=0&o=5&dpr=1.25&pid=1.7",
-
     name: "",
     category: "hat",
     NO: "",
